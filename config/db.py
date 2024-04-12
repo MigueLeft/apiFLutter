@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, MetaData
 
-con = create_engine("postgresql://flutte-api_owner:hH1usBJcg5Fr@ep-calm-recipe-a56ir9p3.us-east-2.aws.neon.tech/flutte-api?sslmode=require")
+con = create_engine("postgresql://apidb_owner:1hPpI5RaolKj@ep-cool-bird-a5r6w8n8.us-east-2.aws.neon.tech/apidb?sslmode=require")
 
 meta = MetaData()
 
